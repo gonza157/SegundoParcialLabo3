@@ -1,0 +1,177 @@
+.rosa{
+    background-color: salmon;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color: rosybrown;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin: 5px 10px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    border-radius: 5px;
+    
+}
+p{
+    color: blanchedalmond;
+}
+
+#fieldsetAnuncios{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+
+#filtrar{
+    display: flex;
+    flex-direction: column;
+}
+
+#btnGuardar{
+    /* background-color: rgb(73, 168, 60); */
+    background-color: rgb(107, 205, 50);
+    border-radius: 5px;
+    color: white;
+}
+
+/* #form{
+    margin: 20px 0px;
+    max-width: 1200px;
+     display: flex; 
+    align-items: center;
+    flex-direction: column;
+} */
+ /* #filtrarTran{
+    display: flex;
+     flex-direction: column;
+
+} */
+
+#promedio{
+    display: flex;
+    flex-direction: column;
+}
+
+#minimo{
+    display: flex;
+    flex-direction: column;
+}
+
+#maximo{
+    display: flex;
+    flex-direction: column;    
+}
+
+/* .ch{
+    display: flex;
+    flex-direction: column;    
+}
+
+.checkbox{
+   display: flex;
+   justify-content: center;
+} */
+
+.seleccion{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: gray;
+    justify-content: space-around;
+    /* width: 600px;
+    height: 100px; */
+}
+
+.oculto{
+    display: none;
+}
+
+.importante{
+    
+    color: gray;
+}
+
+.portada{
+    background-image: url(../image/autoblanco.jpg);
+    /* background-position: center; */
+    background-size:cover;
+    /*margin: 20px 0px;*/
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    /* height: 100px; */
+    background-color: rgb(24, 132, 168);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header{
+    background-color: rgb(24, 132, 168);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+ @media (max-width: 1200px){
+    /* header,footer,main{
+        flex-direction:row;
+        align-items: center;
+    } */
+    .portada{
+         display: none;
+    } 
+    #iconos{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 640px){
+    header,footer, main{
+        min-width: 700px;
+        flex-direction:row;
+        align-items: center;
+    }
+
+    #iconos{
+        display: flex;
+        align-items: center;
+    }
+
+} 
+
+ @media (max-width: 991px){
+   #maximo, #minimo,#promedio{
+       margin-top: 20px;
+   }
+
+} 
+
+/* main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+} */
